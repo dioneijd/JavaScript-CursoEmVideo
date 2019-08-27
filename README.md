@@ -1,4 +1,4 @@
 # JavaScriptCursoEmVideo
 Training material of Curso em Video
 
-teste dionei
+Todos os exercios do curso em viedo estão armazenados aqui
