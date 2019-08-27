@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Teste</title>
+
+    <style>
+        body{
+            background: blueviolet
+        }
+
+        h1{
+            color: whitesmoke;
+            font-family: Arial, Helvetica, sans-serif
+            
+        }
+    
+    </style>
+
+
+</head>
+<body>
+    <h1>INICIANDO O ESTUDO COM D </h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar o <strong>DOM</strong> em Javascript</p>
+    
+    <div>
+        <input type="text" id="teste1" value="0"> 
+    </div>
+
+
+    <button id="mais" onclick="aumentar()">
+        +
+    </button>
+    <button id="menos" onclick="diminuir()">
+        -
+    </button>
+
+
+    <script>
+
+        var p1 = window.document.getElementsByTagName('p')[0]
+
+        var txt1 = window.document.getElementById('teste1')
+
+        var num = Number(txt1.value) + 2
+
+        txt1.value = num
+
+        window.document.write(p1.innerText) 
+
+        p1.style.backgroundColor = 'black'
+        p1.style.color = 'white'
+
+
+        function aumentar(){
+            var txt1 = window.document.getElementById('teste1')         
+            var num = Number(txt1.value) + 1
+            txt1.value = num
+        }
+
+        function diminuir(){
+            var txt1 = window.document.querySelector('#teste1')         
+            var num = Number(txt1.value) - 1
+            if (num > 0){
+                txt1.value = num
+            }
+        }
+
+
+    </script>
+
+
+</body>
+</html>
