@@ -1,4 +1,6 @@
-# JavaScriptCursoEmVideo
-Training material of Curso em Video
+# JavaScript Curso Em Video
+Todos os exercios feitos durante o curso de java script do cana curso em video.
 
-Todos os exercios do curso em viedo estão armazenados aqui
+## Playlist Youtube
+https://www.youtube.com/watch?v=Ptbk2af68e8&list=PLffPpc0KOyLPOgmj5RbkcdQhB46rXo_HP
+
